@@ -1,0 +1,231 @@
+html,body{
+       margin:0;
+       padding:0;
+       width:100%;
+}
+
+main{
+       background-color: #ffffff;
+}
+
+.baslik h1{
+       text-align: center;
+       font-family: 'Nunito', sans-serif;
+       font-size: 2.5rem;
+       background-color: #caeda5;
+       /* color:#69aa22; */
+       color:#2d5019;
+       margin: 0;
+       padding-bottom: 0.5rem;
+}
+
+
+
+
+.ust_menu ul{
+       display:flex;
+       flex-direction: row;
+       list-style-type: none;
+       justify-content:center;
+       align-items: center;
+     
+}
+
+a{
+       text-decoration: none;
+}
+
+.ust_menu ul li{
+       margin:8px;
+       padding:10px;
+       margin-right: 2rem;
+       margin-left: 2rem;
+       font-weight: bold;
+ 
+}
+
+.ust_menu ul li a{
+       color: #69aa22;
+       /* color: #407423; */
+}
+
+.ust_menu ul li:hover{
+       background-color: #2d5019;
+       border-radius:1rem;
+       /* background-color: #69aa22; */
+       scale: 1.05;
+       color: rgb(243, 243, 243);
+
+}
+
+.guncelle .link ul li:hover{
+       scale: 1.05; 
+}
+
+.ust_menu ul li a:hover{
+       /* background-color: #69aa22; */
+       scale: 1.05;
+       color: rgb(243, 243, 243);
+
+}
+
+.ust_menu nav{
+       border-style: 2px solid #2d5019;
+}
+
+a:active{
+       color:aliceblue;
+}
+
+.menu img{
+       width:100%;
+       padding-bottom: 2rem;
+       height:770px;
+       text-align: right;
+}
+
+.daha_fazlasi h1{
+       font-size: 2.25rem;
+       color: #4a7718;
+}
+
+.daha_fazlasi h3{
+       color:#69aa22;
+}
+
+.fa-heart{
+       color:#ea8024;
+}
+
+.daha_fazlasi img{
+       width:40%;
+       float:left;
+       padding-bottom: 3rem;
+       padding-right: 2rem;
+}
+
+.hakkinda{
+       text-align: center;
+       padding-top:10rem;
+       height:35%;
+       line-height: 30px;
+       font-size: 1.25rem;
+
+}
+.hakkinda h1,h3{
+       font-family: 'Nunito', sans-serif;
+}
+.hakkinda p{
+       font-family: 'Noto Sans Adlam', sans-serif;
+}
+
+ .son_eklenenler{
+       clear: both;
+       padding-top: 10px;
+}
+
+.guncelle .link img{
+       width:250px;
+       height:300px;
+       margin:3rem;
+       border-radius: 5px;
+       border: 2px solid #ffff;
+
+
+}
+
+.link p{
+       padding-bottom: 1.5rem;
+       color: #fff;
+       font-size: 1.25rem;
+       font-weight: bold;
+}
+
+
+.guncelle .link ul{
+       display:flex;
+       flex-direction: row;
+       justify-content: center;
+       list-style: none;
+       text-decoration: none;
+       align-items: center;
+       margin-bottom: 4rem;
+}
+
+.guncelle .link ul li{
+    border: 5px solid#7db740;
+    text-align: center;
+    background-color: #2d5019;
+    margin: 1rem;
+    border-radius: 5px;
+}
+
+.guncelle h1{
+       text-align: center;
+       padding-bottom: 2rem;
+       font-size: 2.15rem;
+       color: #4a7718;
+       font-family: 'Nunito', sans-serif;
+       
+
+}
+
+.end{
+       width:100%;
+       height:15%;
+       background-color: #fff
+
+}
+
+.footer ul li{
+       text-decoration: none;
+       list-style: none;
+}
+
+.footer{
+       border-top: 2px solid rgb(8, 59, 8);
+       display:flex;
+       flex-direction: row;
+       text-align: center;
+       justify-content: space-evenly;
+       background-color: #a3cbab8a;
+       padding: 2rem 0rem 3rem 0rem;
+}
+.footer h2{
+       color:#044c0f;
+       padding-left: 35px;
+}
+.footer p{
+       font-size: 1.15rem;
+       font-weight: bold;
+       color:#097439;
+}
+
+ .footer_info ul li{
+       margin-right: 4rem;
+
+}
+
+.footer_follow ul li{
+       margin-right: 4rem;
+       
+
+}
+
+.footer_follow ul{
+       text-align: left;
+}
+.footer_info{
+       text-align:left;
+}
+
+.footer_follow a{
+       color: #097439;
+       font-size: 1.15rem;
+       font-weight: bold;
+}
+
+.footer_follow ul li a i{
+       padding-right:1rem;
+       padding-bottom: 0.5rem;
+}

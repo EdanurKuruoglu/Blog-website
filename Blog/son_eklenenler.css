@@ -1,0 +1,103 @@
+html,body{
+       margin:0;
+       padding:0;
+       width:100%;
+       background-color: #ffe8c8cc;
+}
+
+.baslik h1{
+       text-align: center;
+       font-family: 'La Belle Aurore', cursive;
+       font-size: 2.5rem;
+       /* background-color: #c9aac9; */
+       margin: 0;
+       padding-bottom: 0.5rem;
+       
+}
+.ust_menu ul{
+       display:flex;
+       flex-direction: row;
+       list-style-type: none;
+       justify-content: space-between;
+       margin-right:15%;
+       margin-left: 15%;
+}
+
+a{
+       text-decoration: none;
+}
+
+.ust_menu ul li{
+       margin:5px;
+       padding:5px;
+       padding-inline-end: 3rem;
+       border-style:groove;
+       border-radius:5px;
+}
+
+.son_eklenenler{
+      clear: both;
+      border-bottom: 2px solid black;
+      border-top: 2px solid black;
+}
+
+.guncelle .link img{
+      width:200px;
+      height:250px;
+      padding:3rem;
+    
+}
+
+.guncelle .link ul {
+      display:flex;
+      flex-direction: row;
+      flex-wrap: wrap;  /* TAŞAN YERİ ALT SATIRA ALIYOR*/
+      justify-content: center;
+      list-style: none;
+      text-decoration: none;
+      margin-bottom: 4rem;
+      padding-bottom:2rem;
+}
+
+.guncelle .link ul li{
+      border:1px solid black;
+      text-align: center;
+      
+}
+
+.guncelle h1{
+      text-align: center;
+      padding-bottom: 1rem ;
+}
+
+.footer ul li{
+       text-decoration: none;
+       list-style: none;
+}
+
+.footer{
+       display:flex;
+       flex-direction: row;
+       text-align: center;
+       justify-content: space-evenly;
+       background-color: #ffdcb5;
+}
+
+ .footer_info ul li{
+       margin-right: 4rem;
+
+}  
+
+.footer_follow ul li{
+       margin-right: 4rem;
+
+}
+
+.footer_info{
+       text-align:center;
+}
+
+.footer_follow ul li a i{
+       padding-right:1rem;
+       padding-bottom: 0.5rem;
+}

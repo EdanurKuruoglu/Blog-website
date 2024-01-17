@@ -1,0 +1,123 @@
+html,body{
+       margin:0;
+       padding:0;
+       width:100%;
+}
+
+main{
+       background-color: #ffffff;
+}
+
+
+.baslik h1{
+       text-align: center;
+       font-family: 'La Belle Aurore', cursive;
+       font-size: 2.5rem;
+       background-color: #caeda5;
+       margin: 0;
+       color:#2d5019;
+       margin: 0;
+       /* #adbcd6; */
+       padding-bottom: 0.5rem;
+}
+.ust_menu ul{
+       display:flex;
+       flex-direction: row;
+       list-style-type: none;
+       justify-content: space-between;
+       margin-right:15%;
+       margin-left: 15%;
+}
+
+a{
+       text-decoration: none;
+}
+
+.ust_menu ul li a{
+       color: #69aa22;
+       /* color: #407423; */
+}
+
+.ust_menu ul li{
+       margin:5px;
+       padding:5px;
+       padding-inline-end: 3rem;
+       /* border-style:groove;
+       border-radius:5px; */
+}
+
+.ust_menu ul li:hover{
+       background-color: #2d5019;
+       scale: 1.15;
+       color: aliceblue;
+       border-radius: 0.5rem;
+
+}
+
+.ust_menu ul li a:hover{
+       /* background-color: #69aa22; */
+       scale: 1.05;
+       color: rgb(243, 243, 243);
+
+}
+
+.ust_menu nav{
+       border-bottom:1px solid #2d5019;
+}
+
+a:active{
+       color:aliceblue;
+}
+
+.footer ul li{
+       text-decoration: none;
+       list-style: none;
+}
+
+.footer{
+       border-top: 2px solid rgb(8, 59, 8);
+       display:flex;
+       flex-direction: row;
+       text-align: center;
+       justify-content: space-evenly;
+       background-color: #a3cbab8a;
+       padding: 2rem 0rem 3rem 0rem;
+}
+.footer h2{
+       color:#044c0f;
+       padding-left: 35px;
+}
+.footer p{
+       font-size: 1.15rem;
+       font-weight: bold;
+       color:#097439;
+}
+
+ .footer_info ul li{
+       margin-right: 4rem;
+
+}
+
+.footer_follow ul li{
+       margin-right: 4rem;
+       
+
+}
+
+.footer_follow ul{
+       text-align: left;
+}
+.footer_info{
+       text-align:left;
+}
+
+.footer_follow a{
+       color: #097439;
+       font-size: 1.15rem;
+       font-weight: bold;
+}
+
+.footer_follow ul li a i{
+       padding-right:1rem;
+       padding-bottom: 0.5rem;
+}
